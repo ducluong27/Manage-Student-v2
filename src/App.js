@@ -69,6 +69,11 @@ function App() {
     students, handleDelete, handleUndoStudent, totalGoodStudents
   }
 
+  const onAddsutdenceLocal = () => {
+    //blabla
+    handleDelete();
+  }
+
   return (
     <div className="App">
       <DataContext.Provider value={value}>
